@@ -1,0 +1,74 @@
+body {
+  background: #404040;
+  color: whitesmoke;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.search-bar input[type="text"] {
+  display: flex;
+  align-content: center;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+  width: 100% auto;
+  flex: 1;
+  font-size: 13px;
+}
+
+li {
+  list-style: none;
+  flex-direction: column;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.row-layout {
+  display: inline-flex;
+  gap: 15px auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow sections to wrap to the next line if needed */
+}
+
+p {
+  display: flex; /* Use flex display */
+  align-items: center; /* Vertically center the text */
+  justify-content: center; /* Horizontally center the text */
+  width: 100px;
+  height: 50px;
+  border: 1px solid white;
+  background: linear-gradient(#f904ff, #ff9c06);
+  padding: 10px;
+  font-size: 12px;
+  flex: 1;
+  margin: 5px 1px;
+}
+
+.artist {
+  display: flex;
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  margin: 5px 15px;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 414px; /* Typical iPhone screen width */
+  height: 100%;
+  max-height: 736px; /* Typical iPhone screen height */
+  background-color: #404040;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Horizontally center content */
+  padding: 20px; /* Add padding to center content within the iPhone frame */
+  border: 10px solid #303030; /* Add a border to resemble the iPhone frame */
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+  }
